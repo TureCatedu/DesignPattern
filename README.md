@@ -1,15 +1,19 @@
 # Design Patterns Collection
 
-In questo repository, creato appositamente per semplificare l'apprendimento e la consultazione dei Design Pattern nella progettazione del software. Questo spazio è stato progettato per offrire spiegazioni chiare e codice pronto all'uso.
+In questo repository, creato appositamente per semplificare l'apprendimento e la consultazione dei Design Pattern e altre nozioni teoriche nella progettazione del software. Questo spazio è stato progettato per offrire spiegazioni chiare e codice pronto all'uso.
 
 ## 🗂️ Come è suddivisa la repository
-I pattern sono raggruppati seguendo la classica suddivisione per utilità.
+I file sono raggruppati seguendo la classica suddivisione per utilità.
 
-*   **🏗️ Creazionali (Creational):** Pattern che astraggono il processo di istanziazione, aiutando a creare oggetti in modo flessibile e indipendente dal sistema.
-*   **🧩 Strutturali (Structural):** Pattern che mostrano come comporre classi e oggetti per formare strutture più grandi e complesse, mantenendole flessibili.
-*   **⚙️ Comportamentali (Behavioral):** Pattern focalizzati sugli algoritmi e sull'assegnazione di responsabilità tra gli oggetti.
-*   **🏛️ Architetturali (Architectural):** Pattern di alto livello per strutturare intere applicazioni.
+1. **Design Pattern**
+   *   **🏗️ Creazionali (Creational):** Pattern che astraggono il processo di istanziazione, aiutando a creare oggetti in modo flessibile e indipendente dal sistema.
+   *   **🧩 Strutturali (Structural):** Pattern che mostrano come comporre classi e oggetti per formare strutture più grandi e complesse, mantenendole flessibili.
+   *   **⚙️ Comportamentali (Behavioral):** Pattern focalizzati sugli algoritmi e sull'assegnazione di responsabilità tra gli oggetti.
+   *   **🏛️ Architetturali (Architectural):** Pattern di alto livello per strutturare intere applicazioni.
 
+2. **Nozioni Teoriche**
+   *  **📖 Teoria (Theory):** Dispense teoriche utili all'apprendimento di concetto fondamentali per una corretta progettazione software.
+   
 ## 📦 Cosa c'è all'interno
 Ogni design pattern ha una sua cartella dedicata. All'interno di ogni cartella ci sono due elementi fondamentali:
 

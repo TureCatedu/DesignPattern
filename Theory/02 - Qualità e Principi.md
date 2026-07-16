@@ -68,12 +68,10 @@
 * Fase REFACTOR: Si migliora e si pulisce la struttura interna del codice (code base) assicurandosi che continui a superare i test.
 
 
-* 
-**BDD (Behaviour-Driven Development):** È un approccio incentrato sul comportamento e strutturato sul modello *Given-When-Then*: dato un contesto (Given), quando accade un evento (When), il sistema deve rispondere in un certo modo (Then).
+* **BDD (Behaviour-Driven Development):** È un approccio incentrato sul comportamento e strutturato sul modello *Given-When-Then*: dato un contesto (Given), quando accade un evento (When), il sistema deve rispondere in un certo modo (Then).
 
 
-* 
-**Acrostico FIRST:** Definisce le caratteristiche che devono possedere i buoni test: *Fast* (veloci), *Isolated* (isolati), *Repeatable* (ripetibili), *Self-validating* (autovalutanti) e *Timely* (tempestivi).
+* **Acrostico FIRST:** Definisce le caratteristiche che devono possedere i buoni test: *Fast* (veloci), *Isolated* (isolati), *Repeatable* (ripetibili), *Self-validating* (autovalutanti) e *Timely* (tempestivi).
 
 
 
@@ -81,20 +79,16 @@
 
 ### 5. I Princìpi Fondamentali dell'Ingegneria del Software
 
-* 
-**KISS (Keep It Simple, Stupid):** Produce e progetta componenti che siano il più semplici possibile, per renderli facili da capire e gestire.
+* **KISS (Keep It Simple, Stupid):** Produce e progetta componenti che siano il più semplici possibile, per renderli facili da capire e gestire.
 
 
-* 
-**DRY (Don't Repeat Yourself):** Scongiura le ripetizioni superflue nel codice.
+* **DRY (Don't Repeat Yourself):** Scongiura le ripetizioni superflue nel codice.
 
 
-* 
-**YAGNI (You Ain't Gonna Need It):** Evita di progettare in anticipo funzionalità o componenti che non sono strettamente o attualmente necessari.
+* **YAGNI (You Ain't Gonna Need It):** Evita di progettare in anticipo funzionalità o componenti che non sono strettamente o attualmente necessari.
 
 
-* 
-**LoD (Law of Demeter):** Detta la regola del "non parlare con gli estranei"; un oggetto dovrebbe comunicare e interagire solo con oggetti strettamente correlati (amici) per limitare le dipendenze.
+* **LoD (Law of Demeter):** Detta la regola del "non parlare con gli estranei"; un oggetto dovrebbe comunicare e interagire solo con oggetti strettamente correlati (amici) per limitare le dipendenze.
 
 
 

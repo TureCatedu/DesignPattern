@@ -43,6 +43,8 @@ classDiagram
 
     WinFactory --> WinButton : "creates"
     WinFactory --> WinCheckbox : "creates"
+    MacFactory --> MacButton : "creates"
+    MacFactory --> MacCheckbox : "creates"
     App --> GUIFactory
     App --> Button
     App --> Checkbox

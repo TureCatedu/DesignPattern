@@ -2,15 +2,15 @@
  * Classe Singleton che simula la connessione a un database.
  * Utilizza la tecnica del Double-Checked Locking per essere Thread-Safe.
  */
-public class Singleton {
+public class DatabaseConnection {
     // La keyword 'volatile' assicura che i thread gestiscano correttamente 
     // l'istanza durante l'inizializzazione in ambienti multi-thread.
-    private static volatile Singleton instance;
+    private static volatile DatabaseConnection instance;
     
     private String connectionString;
 
     // Il costruttore privato impedisce l'uso dell'operatore 'new' da parte del client
-    private Singleton(String connectionString) {
+    private DatabaseConnection(String connectionString) {
         // Simulazione di un'operazione lenta di connessione
         try {
             Thread.sleep(1000);
@@ -23,15 +23,15 @@ public class Singleton {
     /**
      * Metodo statico che controlla l'accesso all'istanza del Singleton.
      */
-    public static Singleton getInstance(String connectionString) {
+    public static DatabaseConnection getInstance(String connectionString) {
         // Primo controllo (senza lock) per migliorare le prestazioni
         if (instance == null) {
             // Lock sulla classe, solo il primo thread entra qui
-            synchronized (Singleton.class) {
+            synchronized (DatabaseConnection.class) {
                 // Secondo controllo (con lock) per sicurezza: un altro thread
                 // potrebbe aver inizializzato l'istanza mentre questo attendeva il lock
                 if (instance == null) {
-                    instance = new Singleton(connectionString);
+                    instance = new DatabaseConnection(connectionString);
                 }
             }
         }
